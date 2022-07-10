@@ -13,4 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag node-mongodb-app:$(date +%s)
+      run: docker build . --file Dockerfile --tag ukendiran/node-mongodb-app:$(date +%s)
